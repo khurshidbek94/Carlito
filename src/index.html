@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./../dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container px-4">
+    <header>
+      <nav class="section-container  flex items-center justify-between py-4">
+        <div class="py-1"><img class="w-16 h-7 z-10" src="./img/Group 336.png" alt="logo" /></div>
+        <ul id="nav-list" class="hidden xl:flex flex-1 justify-center items-center gap-6 font-normal text-xs">
+          <li class="cursor-pointer flex flex-col items-center leading-6"><span>Home</span>
+            <div class="w-1.5 h-1.5 bg-black rounded-full"></div>
+          </li>
+          <li class="list-item">Für Apartments</li>
+          <li class="list-item">Affiliate Program</li>
+          <li class="list-item">Blog</li>
+          <li class="list-item">About Us</li>
+          <li class="cursor-pointer  font-bold">EN <span><i class="fa-solid fa-chevron-down"></i></span></li>
+        </ul>
+        <button type="button"
+          class="text-xs xl:flex bg-btn hover:opacity-75 text-white px-2 sm:px-7 py-2 sm:py-3 rounded-full font-bold">Jetzt gratis
+          loslegen!</button>
+
+        <button id="menu-btn"
+          class="block cursor-pointer z-30 w-6 h-3 transition-all relative xl:hidden hamburger focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+
+      </nav>
+      <div class="xl:hidden z-50  relative">
+        <div id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-5 space-y-6 font-bold bg-white sm:w-auto    sm:self-center left-6 right-6 drop-shadow-md">
+          <a class="" href="#">Home</a>
+          <a class="" href="#">Für Apartments</a>
+          <a class="" href="#">Affiliate Program</a>
+          <a class="" href="#">Blog</a>
+          <a class="" href="#">About Us</a>
+          <a class="" href="#">EN <span><i class="fa-solid fa-chevron-down"></i></span></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-bg-section px-2 pb-2 lg:pb-0 xl:px-0">
+      <div class="container  overflow-hidden">
+        <div class="inline-container relative">
+          <div class="absolute right-0 z-10 hidden sm:block">
+            <div class="relative h-h816 w-w1063 overflow-hidden">
+              <img class="absolute z-10 sm:w-w1063 sm:h-h1063 w-w571  -mt-16 -right-56" src="./img/Ellipse.png"
+                alt="ellipse">
+              <img class="absolute z-20 w-w627 h-h1100 -mt-10 right-20" src="./img/Untitled-1 1.png" alt="girl-image">
+            </div>
+          </div>
+
+          <div class="w-full lg:w-w571 sm:pt-[30rem]  pt-0  lg:pt-16 xl:pt-20 text-black ">
+            <h4 class="text-xs  italic lg:w-96 xl:w-w571">
+              <span class="font-bold">Nur für kurze Zeit:</span>Bezahle die Monate im Jahr, die du auch wirklich offen
+              hast!
+            </h4>
+
+            <h2 class="text-3xl mt-3 font-bold w-full lg:w-w490">
+              Erfahre wie auch du aus einer <span class="text-gaste">klassischen Gästemappe</span> eine profitable <span
+                class="text-betreung">Gäste-vor-Ort- <br> Betreuung</span> machen kannst.
+            </h2>
+
+            <p class="mt-3 w-full xl:w-w575 text-xs">Stets beide Seiten im Blick: den Gast genauso wie die Rezeption.
+              <br>
+              Nur wenn es Gästen leichter fällt Informationen mit <span class="underline">echtem Mehrwert</span> zu
+              nutzen, erleichtert dies die Rezeption und alle sind happy. So machst du aus einem <span
+                class="font-bold underline">absoluten <br> Neugast</span> einen <span class="font-bold underline">treuen
+                Stammgast.</span>
+              <br>
+              <br>
+              Wie genau? Das erfährst du hier:
+            </p>
+
+            <div class="">
+              <button
+                class="mt-5 py-3 sm:py-3 px-2 sm:px-14 bg-btnblue rounded-full text-btnblue font-bold flex items-center hover:opacity-80">
+                <div class="w-[18.2px] h-[18.2px] bg-white mr-2 rounded-full flex items-center justify-center">
+                  <span class="w-3 h-2 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xs"></i></span>
+                </div>
+                <span class="text-white text-xs">Jetzt unverbindlich anfragen!</span>
+              </button>
+
+              <p class="flex items-center text-[12px] leading-[11.2px] sm:px-14 mt-2">
+                <span class="mr-2"><img src="/src/img/bi_shield-lock-fill.png" alt="lock-image"></span>SSL verschlüsselt
+                sichere Verbindung
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 text-xs ">
+        <div class="logos">
+          <img src="./img/01.svg" class="w-16 h-16" alt="">
+          <p>Avidea</p>
+        </div>
+        <div class="logos">
+          <img src="./img/02.svg" class="w-16 h-16" alt="">
+          <p>Das Gerstl</p>
+        </div>
+        <div class="logos">
+          <img src="./img/03.svg" class="w-14 h-16" alt="">
+          <p>MIRAMONTI</p>
+        </div>
+        <div class="logos">
+          <img src="./img/04.svg" class="w-16 h-16" alt="">
+          <p>Villa Verde</p>
+        </div>
+        <div class="logos">
+          <img src="./img/05.svg" class="w-14 h-16" alt="">
+          <p>Monastero Arx Vivendi</p>
+        </div>
+        <div class="logos">
+          <img src="./img/06.svg" class="w-16 h-16" alt="">
+          <p>Viktoria</p>
+        </div>
+        <div class="logos">
+          <img src="./img/02.svg" class="w-16 h-16" alt="">
+          <p>Hirzer 2781</p>
+        </div>
+        <div class="logos">
+          <img src="./img/08.svg" class="w-16 h-16" alt="">
+          <p>Hotel Patrizia</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-container text-black my-14">
+        <h1 class="text-center text-2xl font-black">WAS AUCH DU BEI UNSERER DIGITALEN GÄSTE- <br> BETREUUNGS-APP
+          BESONDERS SCHÄTZEN LERNST</h1>
+        <div class="flex items-center justify-center">
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-9 gap-x-6 gap-y-6">
+            <div class="w-60 p-2 shadow-3xl">
+              <div class="w-9 h-9 bg-btnblue rounded-sm flex justify-center items-center "><img
+                  src="./img/unserer/01.png" alt=""></div>
+              <h5 class="font-black text-sm my-3">Die smartesten 60 Sekunden beim
+                Check-In</h5>
+              <p class="text-xs">Gib deinem Gast einfach und schnell alle notwendigen und hilfreichen Informationen, für
+                den Aufenthalt - Im Handtaschenformat ohne Zettelwirtschaft:
+                Öffnungszeiten, Telefonnummern, Speisekarten aber auch Abfahrtszeiten von Bus und Bahn, Konzerte in
+                deiner Nähe u.v.m. sind <span class="font-bold">Teil des perfekten Aufenthalts.</span></p>
+            </div>
+            <div class="w-60 p-2 shadow-3xl">
+              <div class="w-9 h-9 bg-btnblue rounded-sm flex justify-center items-center "><img
+                  src="./img/unserer/02.png" alt=""></div>
+              <h5 class="font-black text-sm my-3">Kein nerviger Download im App- oder Playstore</h5>
+              <p class="text-xs">Einmal gescannt, öffnet sich die Web-App und funktioniert wie eine gewohnte App. Der
+                Gast sieht auf seinem Smartphone dein Logo, nicht das unsere. Das Bedeutet: auch wenn er schon wieder zu
+                Hause ist und immer mal wieder einen Blick auf dein Icon wirft, denkt er stets an die Zeit bei dir:
+                <span class="font-bold">omnipräsent.</span></p>
+            </div>
+            <div class="w-60 p-2 shadow-3xl">
+              <div class="w-9 h-9 bg-btnblue rounded-sm flex justify-center items-center "><img
+                  src="./img/unserer/03.png" alt=""></div>
+              <h5 class="font-black text-sm my-3">Mit wenigen Klicks zur eigenen Hotel-App</h5>
+              <p class="text-xs">Im Handumdrehen erstellst du deine eigene Hotel-App. Auf Wunsch helfen wir dir
+                natürlich. So schaffst du es, mit nur wenigen Klicks und ganz ohne nervigem Einrichtungs-Marathon, deine
+                eigene benutzerfreundliche und gebrandete App einzurichten.</p>
+            </div>
+            <div class="w-60 p-2 shadow-3xl">
+              <div class="w-9 h-9 bg-btnblue rounded-sm flex justify-center items-center "><img
+                  src="./img/unserer/04.png" alt=""></div>
+              <h5 class="font-black text-sm my-3">Im handumdrehen zur Mehrsprachigen App</h5>
+              <p class="text-xs">Ein echter AHA-Moment für jede Rezeption, die in Sekunden die perfekte Übersetzung
+                haben will. Dank der Einbindung eines professionellen Übersetzungstools erstellst du die Texte in deiner
+                Muttersprache. Unser Tool übernimmt den Rest. In wenigen Augenblicken in sämtlichen Sprachen
+                betriebsbereit: <span class="font-bold"> woow!</span></p>
+            </div>
+            <div class="w-60 p-2 shadow-3xl">
+              <div class="w-9 h-9 bg-btnblue rounded-sm flex justify-center items-center "><img
+                  src="./img/unserer/05.png" alt=""></div>
+              <h5 class="font-black text-sm my-3">Einfach und sicher</h5>
+              <p class="text-xs">Wir helfen dir gerade in Zeiten allgegenwärtiger Digitalisierung nicht nur am Ball zu
+                bleiben, sondern einfach und schnell den wachsenden Anforderungen deiner Gäste gerecht zu werden.
+                Garantiert ausfallsicher.</p>
+            </div>
+            <div class="w-60 p-2 shadow-3xl">
+              <div class="w-9 h-9 bg-btnblue rounded-sm flex justify-center items-center "><img
+                  src="./img/unserer/06.png" alt=""></div>
+              <h5 class="font-black text-sm my-3">Wenn’s mal zwickt, sind wir da: 24/7</h5>
+              <p class="text-xs">Sollte es aus irgendwelchen Gründen dennoch einmal irgendwo hapern, dann kannst du ganz
+                beruhigt sein. Unser Support-Team kümmert sich rührend und pfeilschnell genau dort, wo’s brennt. Und das
+                wissen alle zu schätzen. Denn wir legen noch wirklich Wert auf einen fairen Umgang mit all unseren
+                Kunden.</p>
+            </div>
+          </div>
+        </div>
+        <p class="mt-8 text-xs text-center lg:w-1158 mx-auto">BTW: Macht es für dich Sinn eine Unterscheidung von <span
+            class="font-bold underline">Gast</span> und <span class="font-bold underline">Hotel</span> sichtbar zu
+          machen? So nimmt ein Lead der auf die Website kommt unterbewusst wahr, ob es sich gerade um die Info aus sicht
+          des Gastes oder der Rezeption / Hotelier handelt. </p>
+      </div>
+    </section>
+
+    <section class="bg-bggast">
+      <div class="pt-10 md:pt-20 section-container">
+        <h1 class="text-center font-black text-2xl sm:text-4xl">CARLITO FOR THE <span class="text-gast">GAST <br
+              class="hidden lg:block">
+            So sieht der Gast deine App</span></h1>
+        <div class=" md:flex justify-between items-center md:pt-11 mb-10">
+          <div><img src="./img/gast/Features.png" alt=""></div>
+          <div>
+            <h3 class="font-black text-3xl">Features for visionary <br class="hidden lg:block"> hoteliers</h3>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/01.png" alt="">Stay Informations
+            </div>
+            <div class="text-sm bg-bgPinc rounded-[3.5px] flex items-center mt-1 w-56 py-[10px] pl-[10px]">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/02.png" alt="">Tips for the Surroundings
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/03.png" alt="">Highlights
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/04.png" alt="">Chat
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/05.png" alt="">Live and Pre - Ordering
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/06.png" alt="">Push Notifications
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/07.png" alt="">Live Event Loop
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/08.png" alt="">Service & Activity Requests
+            </div>
+            <div class="carlito-items">
+              <img class="w-7 mr-[10.5px]" src="./img/gast/09.png" alt="">Content Marketing Hub
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" bg-bgReady w-full h-[459px] overflow-hidden relative">
+        <div class="inline-container h-[459px] flex items-center">
+          <div class="ml-3 xl:ml-0 w-[406px] text-white">
+            <h3 class="font-bold text-4xl">Ready to dive in?
+              Create your app today.</h3>
+            <p class="text-xs mt-[14px]">Create your very own app, completely white-label and with all the features you need to be ahead of the
+              competition.</p>
+              <div class="">
+                <button
+                  class="mt-5 py-3 sm:py-3 px-2 sm:px-14 bg-btnblue rounded-full text-btnblue font-bold flex items-center hover:opacity-80">
+                  <div class="w-[18.2px] h-[18.2px] bg-white mr-2 rounded-full flex items-center justify-center">
+                    <span class="w-3 h-2 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xs"></i></span>
+                  </div>
+                  <span class="text-white text-xs">Jetzt unverbindlich anfragen!</span>
+                </button>
+
+                <p class="flex items-center text-[12px] leading-[11.2px] sm:px-14 mt-2">
+                  <span class="mr-2"><img src="/src/img/carlito/white-lock.png" alt="lock-image"></span>SSL verschlüsselt
+                  sichere Verbindung
+                </p>
+              </div>
+          </div>
+        </div>
+        <div>
+          <img class="absolute w-[814px] h-[1141px] -right-9 -mt-[35rem] left-[535px]" src="./img/gast/Parallax Background 1.png" alt="">
+        </div>
+      </div>
+
+      <div class="">
+        <h1 class="text-center font-black text-2xl sm:text-4xl my-8 md:my-16">CARLITO FOR THE <span class="text-btnblue">HOTEL <br class="hidden lg:block">
+          So siehst Du - die Rezeption - deine App </span></h1>
+        <div class="section-container text-center pt-[35px]">
+          <button class="flex hover:opacity-80 items-center mx-auto text-gast py-2 px-[5px] bg-bgPinc rounded-sm"><span class="w-3 mr-2"><img src="./img/gast/btnHotel.png" alt=""></span>Management</button>
+          <h2 class="font-bold text-[33px] mt-5">Intuitives Kontrollcenter. Lass Technologie für dich arbeiten.</h2>
+          <div class="lg:flex lg:justify-between mt-[21px] text-start">
+            <div class="management-items" href="#">
+              <div class="integration-img"><img src="./img/hotel/galichka.png" alt=""></div>Das benutzerfreundlichste Interface auf dem Markt
+            </div>
+            <div class="management-items mt-2 lg:mt-0" href="#">
+              <div class="integration-img"><img src="./img/hotel/galichka.png" alt=""></div>Drag and Drop
+            </div>
+            <div class="management-items mt-2 lg:mt-0" href="#">
+              <div class="integration-img"><img src="./img/hotel/galichka.png" alt=""></div>Automatische Übersetzungen mittels künstlicher Intelligenz
+            </div>
+          </div>
+          <div class="mt-[11.2px] text-start">
+            <div class="flex items-center text-xs lg:justify-center" href="#">
+              <div class="integration-img"><img src="./img/hotel/galichka.png" alt=""></div>Ausführliche Dokumentation und Video-Tutorials
+            </div>
+          </div>
+          <div class="pb-[35px]">
+            <img src="./img/hotel/image 119.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white h-[550px] py-14">
+        <div class="section-container bg-bg-section px-[37.8px] py-[37.8px] rounded-[10.5px] lg:flex items-center">
+          <div class="">
+            <button class="flex items-center hover:opacity-80 text-btnblue py-2 px-[5px] bg-infoLight rounded-sm"><span class="w-3 mr-2"><img src="./img/hotel/integrations.png" alt=""></span>Integrations</button>
+            <h2 class="text-[33.6px] font-bold mt-[22.78px]">Works on any mobile <br class="hidden lg:block"> device</h2>
+            <p class="text-[13.66px] mt-[22.78px]">PWAs (Progressive Web Apps) are the future of mobile applications: <br class="hidden lg:block">
+              Lightweight - No App Store - No commissions - No approval times </p>
+            <div class="mt-[22.78px] sm:flex items-center">
+              <div class="mr-[35px] text-colorGast">
+                <div class="integration-items line-through" href="#"><span class="integration-img"><img src="./img/hotel/xBtn.png" alt=""></span>App Store</div>
+                <div class="integration-items mt-[7px] line-through" href="#"><span class="integration-img"><img src="./img/hotel/xBtn.png" alt=""></span>Commissions</div>
+                <div class="integration-items mt-[7px] line-through" href="#"><span class="integration-img"><img src="./img/hotel/xBtn.png" alt=""></span>Approval period</div>
+              </div>
+              <div class="mt-3px sm:mt-0">
+                <div class="integration-items" href="#"><span class="integration-img"><img src="./img/hotel/galichka.png" alt=""></span>Generate your QR code - immediate access</div>
+                <div class="integration-items mt-[7px]" href="#"><span class="integration-img"><img src="./img/hotel/galichka.png" alt=""></span>The app and distribution is 100% yours</div>
+                <div class="integration-items mt-[7px]" href="#"><span class="integration-img"><img src="./img/hotel/galichka.png" alt=""></span>Full control - No coding required</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="w-[388px] h-[]" src="./img/hotel/mobileImg.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="section-container">
+        <h1 class="font-black text-2xl sm:text-[43.4px] text-center sm:mt-48 mt-72 lg:mt-14">More than just an app.</h1>
+        <h1 class="font-black text-2xl sm:text-[43.4px] text-center">A complete <span class="bg-bgYellow">digital ecosystem.</span></h1>
+        <div class="md:flex md:justify-between items-center mt-10 sm:mt-20 lg:mt-36">
+          <div class="flex justify-center"><img class="w-[358px]" src="./img/hotel/servise.png" alt=""></div>
+          <div class="md:w-[441px]">
+            <button class="more-btn"><span class="mr-2"><img class="w-3" src="./img/hotel/mobile-alt.png" alt=""></span>White Label</button>
+            <h3 class="font-black text-2xl mt-[21px]">Your appearance <br class="hidden lg:block">
+              Our service</h3>
+              <div class="more-text" href="#">
+                <div class="mr-2"><img class="w-[10px]" src="./img/hotel/galichka.png" alt=""></div>
+                <p>In all our packages, your own Branding is fully integrated.</p>
+              </div>
+              <div class="more-text" href="#">
+                <div class="mr-2"><img class="w-[15px]" src="./img/hotel/galichka.png" alt=""></div>
+                <p>Allow your web visitors to interact and directly buy the product showcased in the Instagram story.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col-reverse justify-between items-center mt-10 sm:mt-20 lg:mt-36 pb-14">
+          <div class="md:w-[459px]">
+            <button class="more-btn"><span class="mr-2"><img class="w-3" src="./img/hotel/raketa.png" alt=""></span>Increase Revenue</button>
+            <h3 class="font-black text-2xl mt-[21px]">Upsell your products <br class="hidden lg:block">
+              and services</h3>
+              <div class="more-text" href="#">
+                <div class="mr-2"><img class="w-[10px]" src="./img/hotel/galichka.png" alt=""></div>
+                <p>Promote your own products and services in the “Highlights section”</p>
+              </div>
+              <div class="more-text" href="#">
+                <div class="mr-2"><img class="w-[15px]" src="./img/hotel/galichka.png" alt=""></div>
+                <p>Integrate Our ordering widget so your Guests can order from and to anywhere without the need of a waiter.</p>
+              </div>
+              <div class="flex items-baseline text-xs font-bold cursor-pointer mt-[7px]" href="#">
+                <div class="mr-2"><img class="w-[12px]" src="./img/hotel/galichka.png" alt=""></div>
+                <p>The ordering widget is available for Premium and Professional customers only.</p>
+              </div>
+          </div>
+          <div class="flex justify-center"><img class="w-[396px]" src="./img/hotel/serviceInsta.png" alt=""></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section-container lg:px-[17.15px] pb-[50px] lg:pb-[105px] ">
+      <div class="pt-10 pb-16 lg:mt-24 flex flex-col md:flex-row md:justify-between">
+        <div class="md:w-[350px] mx-auto">
+          <img class="w-10 mx-auto" src="./img/carlito/patrizia.png" alt="">
+          <p class="julia-text ">“Concierge has lifted pressure off of my employees and my guests are able to enjoy their stay more autonomousely. They love our app!”</p>
+          <div class="flex items-center justify-center">
+            <img class="w-14 mr-2" src="./img/carlito/julia.png" alt="">
+            <p class="text-[12.6px] mr-2"><span class="font-bold">Julia Spögler,</span> Hotel Patrizia
+              <div><img class="w-[42px]" src="./img/carlito/yulduzchalar.png" alt=""></div>
+            </p>
+          </div>
+        </div>
+        <div class="md:w-[350px] mx-auto mt-7 md:mt-0">
+          <img class="w-10 mx-auto" src="./img/carlito/patrizia.png" alt="">
+          <p class="julia-text ">“Concierge has lifted pressure off of my employees and my guests are able to enjoy their stay more autonomousely. They love our app!”</p>
+          <div class="flex items-center justify-center">
+            <img class="w-14 mr-2" src="./img/carlito/julia.png" alt="">
+            <p class="text-[12.6px] mr-2"><span class="font-bold">Julia Spögler,</span> Hotel Patrizia
+              <div><img class="w-[42px]" src="./img/carlito/yulduzchalar.png" alt=""></div>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div >
+        <h1 class="text-[33.6px] font-black text-center"> Try carlito for <span class="text-gast">Hotels</span> for free!</h1>
+        <p class="text-center text-[16.8px] mt-[3.5px]">Reach more with your App.</p>
+        <div class="w-full overflow-auto">
+          <div class="w-[726px] md:w-full">
+            <div class="flex justify-between items-center font-bold mt-[65.45px] md:text-xl">
+              <h4 class="w-[40%] pl-[38.85px]">Features / Plans</h4>
+              <h4 class="table-img text-center">Basic</h4>
+              <h4 class="table-img text-center">Professional</h4>
+              <div class="table-img "><button class="flex mx-auto items-center text-sm md:text-lg bg-btnblue text-white py-[3.85px] pr-[9.8px] pl-[7.7px] rounded"><span class="mr-[8.4px] w-3 md:w-4"><img src="./img/carlito/premium.png" alt=""></span>Premium</button></div>
+            </div>
+
+            <div class="flex items-center justify-between bg-tableColor rounded py-1 mt-9">
+              <p class="table-p">Features / Plans</p>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table">
+              <p class="table-p">Info Content</p>
+              <div class="table-img text-redText text-xs text-center">limited</div>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table">
+              <p class="table-p">Autom.”Points of Interest” import</p>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table">
+              <p class="table-p">Live Chat</p>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table">
+              <p class="table-p">TV App</p>
+              <div class="table-img"><img class="table-img-width" src="./img/carlito/minus.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table">
+              <p class="table-p">1-click cleaning cancellation</p>
+              <div class="table-img"><img class="table-img-width" src="./img/carlito/minus.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/hotel/galichka.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table">
+              <p class="table-p">Event import</p>
+              <div class="table-img"><img class="table-img-width" src="./img/carlito/minus.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/carlito/minus.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+            <div class="carlito-table mb-3">
+              <p class="table-p">Booking module</p>
+              <div class="table-img"><img class="table-img-width" src="./img/carlito/minus.png" alt=""></div>
+              <div class="table-img"><img class="table-img-width" src="./img/carlito/minus.png" alt=""></div>
+              <div class="table-img"><img class="table-icon" src="./img/carlito/blueGalichka.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2 flex justify-end text-xs text-green text-center ">
+          <p class="py-2 px-1 bg-tableColor">Includes all future additional <br> paid features and modules!</p>
+        </div>
+        <div class="flex justify-center flex-col items-center md:pt-[32px] pt-[25px]">
+          <button
+            class="mt-5 py-3 sm:py-3 px-2 sm:px-14 bg-btnblue rounded-full text-btnblue font-bold flex items-center hover:opacity-80">
+            <div class="w-[18.2px] h-[18.2px] bg-white mr-2 rounded-full flex items-center justify-center">
+              <span class="w-3 h-2 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xs"></i></span>
+            </div>
+            <span class="text-white text-xs">Jetzt unverbindlich anfragen!</span>
+          </button>
+
+          <p class="flex items-center text-[12px] leading-[11.2px] sm:px-14 mt-2">
+            <span class="mr-2"><img src="/src/img/bi_shield-lock-fill.png" alt="lock-image"></span>SSL verschlüsselt
+            sichere Verbindung
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+       <h1 class="text-[33.6px] font-black text-center">Frequently asked questions</h1>
+       <p class="text-center text-[16.8px] mt-[3.5px]">Have a specific question?<a href="#" class="text-btnblue hover:underline">Hit us up!</a> </p>
+      <div class="section-container">
+        <div class="m-8  overflow-hidden sm:w-[570px] mx-auto">
+          <!-- accordion-tab  -->
+          <div class="group outline-none accordion-section" tabindex="1">
+            <div class="group flex justify-between items-center transition ease duration-500 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-xs font-bold">
+                Question 1
+              </div>
+              <div class="w-2 items-center inline-flex justify-center transform transition ease duration-500 group-focus:-rotate-180 absolute right-1 ml-auto">
+                <i class="fas fa-chevron-down text-xs"></i>
+              </div>
+            </div>
+            <div class="group-focus:max-h-screen max-h-0 overflow-hidden ease duration-500 mt-2 border-b">
+              <p class="text-justify text-xs pb-[14px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod semper leo.
+              </p>
+            </div>
+          </div>
+          <!-- accordion-tab  -->
+          <div class="group outline-none accordion-section mt-[14px]" tabindex="1">
+            <div class="group flex justify-between items-center transition ease duration-500 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-xs font-bold">
+                Question 2
+              </div>
+              <div class="w-2 items-center inline-flex justify-center transform transition ease duration-500 group-focus:-rotate-180 absolute right-1 ml-auto">
+                <i class="fas fa-chevron-down text-xs"></i>
+              </div>
+            </div>
+            <div class="group-focus:max-h-screen max-h-0 overflow-hidden ease duration-500 mt-2 border-b">
+              <p class="text-justify text-xs pb-[14px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod semper leo.
+              </p>
+            </div>
+          </div>
+          <!-- accordion-tab  -->
+          <div class="group outline-none accordion-section mt-[14px]" tabindex="1">
+            <div class="group flex justify-between items-center transition ease duration-500 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-xs font-bold">
+                Question 3
+              </div>
+              <div class="w-2 items-center inline-flex justify-center transform transition ease duration-500 group-focus:-rotate-180 absolute right-1 ml-auto">
+                <i class="fas fa-chevron-down text-xs"></i>
+              </div>
+            </div>
+            <div class="group-focus:max-h-screen max-h-0 overflow-hidden ease duration-500 mt-2 border-b">
+              <p class="text-justify text-xs pb-[14px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod semper leo.
+              </p>
+            </div>
+          </div>
+          <!-- accordion-tab  -->
+          <div class="group outline-none accordion-section mt-[14px]" tabindex="1">
+            <div class="group flex justify-between items-center transition ease duration-500 cursor-pointer pr-10 relative">
+              <div class="transition ease duration-500 text-xs font-bold">
+                Question 4
+              </div>
+              <div class="w-2 items-center inline-flex justify-center transform transition ease duration-500 group-focus:-rotate-180 absolute right-1 ml-auto">
+                <i class="fas fa-chevron-down text-xs"></i>
+              </div>
+            </div>
+            <div class="group-focus:max-h-screen max-h-0 overflow-hidden ease duration-500 mt-2 border-b">
+              <p class="text-justify text-xs pb-[14px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod semper leo.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class=" bg-bgReady w-full h-[459px] overflow-hidden relative mt-14 md:mb-7 mb-2">
+        <div class="inline-container h-[459px] flex items-center">
+          <div class="ml-3 xl:ml-0 w-[406px] text-white">
+            <h3 class="font-bold sm:text-4xl text-2xl">Ready to dive in?
+              Create your app today.</h3>
+            <p class="text-xs mt-[14px]">Create your very own app, completely white-label and with all the features you need to be ahead of the
+              competition.</p>
+              <div class="">
+                <button
+                  class="mt-5 py-3 sm:py-3 px-2 sm:px-14 bg-btnblue rounded-full text-btnblue font-bold flex items-center hover:opacity-80">
+                  <div class="w-[18.2px] h-[18.2px] bg-white mr-2 rounded-full flex items-center justify-center">
+                    <span class="w-3 h-2 flex items-center justify-center"><i class="fa-solid fa-arrow-right text-xs"></i></span>
+                  </div>
+                  <span class="text-white text-xs">Jetzt unverbindlich anfragen!</span>
+                </button>
+
+                <p class="flex items-center text-[12px] leading-[11.2px] sm:px-14 mt-2">
+                  <span class="mr-2"><img src="/src/img/carlito/white-lock.png" alt="lock-image"></span>SSL verschlüsselt
+                  sichere Verbindung
+                </p>
+              </div>
+          </div>
+        </div>
+        <div>
+          <img class="absolute w-[814px] h-[1141px] -right-9 -mt-[35rem] left-[535px]" src="./img/gast/Parallax Background 1.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-bgBlack">
+      <div class="section-container text-white flex flex-col sm:flex-row justify-between items-start pt-6 md:pb-28 pb-10">
+        <div class="w-52 relative">
+          <div class="absolute sm:-right-[18.2px] -right-[5px] -top-[9.1px]">
+            <img class="w-[111.3px]" src="./img/futter/Frame 1708.png" alt="">
+          </div>
+          <img class="w-16 h-6" src="./img/futter/logo.png" alt="">
+          <p class="font16 mt-[14px]">The Future of Hospitality.</p>
+          <div class="flex items-center mt-[14px]">
+            <img class="w-6 mr-[10.5px]" src="./img/futter/01.png" alt="">
+            <img class="w-6 mr-[10.5px]" src="./img/futter/02.png" alt="">
+            <img class="w-6" src="./img/futter/03.png" alt="">
+          </div>
+          <p class="font16 mt-[14px]">hello@carlito-app.com <br>
+            © 2022 Concierge Hotel GmbH</p>
+        </div>
+        <div class="flex items-baseline justify-between mt-4 sm:mt-0 w-52">
+          <div class="">
+            <h6 class="text-[12.6px] font-black">Product</h6>
+            <ul class="font16 mt-[12.6px]">
+              <li>carlito for Apartments</li>
+              <li>carlito for Hotels</li>
+              <li>Affiliate Program</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="text-[12.6px] font-black">Company</h6>
+            <ul class="font16 mt-[12.6px]">
+              <li>Impress</li>
+              <li>Privacy</li>
+              <li>TOS</li>
+              <li>About us</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+  </div>
+
+</body>
+
+</html>

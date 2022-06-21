@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white w-4 h-5
+  }
+
+  .container {
+    @apply max-w-[1344px] mx-auto
+  }
+
+  .section-container {
+    @apply max-w-[924px] mx-auto px-2
+  }
+
+  .inline-container {
+    @apply max-w-[1117px] ml-auto px-2
+  }
+
+  .logos {
+    @apply my-4 mx-7 object-top flex flex-col text-center  items-center cursor-pointer
+  }
+
+  .list-item {
+    @apply cursor-pointer hover:underline
+  }
+
+  .actives {
+    @apply bg-tableColor
+  }
+
+  .management-items {
+    @apply flex items-center  text-xs
+  }
+
+  .integration-items {
+    @apply flex items-center  text-xs items-baseline
+  }
+
+  .integration-img {
+    @apply mr-2 w-[10px]
+  }
+
+  .more-btn {
+    @apply flex mt-8 md:mt-0 items-center py-2 px-1 bg-blueOch rounded-[2.1px] text-blackOch text-[9px] hover:opacity-80
+  }
+
+  .more-text {
+    @apply flex items-baseline text-xs mt-[7px]
+  }
+
+  .carlito-items {
+    @apply text-sm text-colorGast flex items-center mt-1 w-56 py-[10px] pl-[10px] cursor-pointer
+  }
+
+  .julia-text {
+    @apply text-[12.6px] text-center my-[14px]
+  }
+
+  .carlito-table {
+    @apply flex items-center justify-between bg-tableColor rounded py-1 mt-2
+  }
+
+  .table-p {
+    @apply w-[40%] text-xs pl-12
+  }
+
+  .table-img {
+    @apply w-[20%]
+  }
+
+  .table-img-width {
+    @apply mx-auto w-3
+  }
+
+  .table-icon {
+    @apply mx-auto w-4
+  }
+
+  .font16 {
+    @apply text-[11.2px]
+  }
+
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
